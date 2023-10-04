@@ -40,4 +40,11 @@ class HomeTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let character = sampleCharacterData[indexPath.row]
+        let detailView = DetailViewController()
+        detailView.character = character
+        navigationController?.pushViewController(detailView, animated: true)
+    }
 }

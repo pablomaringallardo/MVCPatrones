@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A344680A2ACDF066005BB462 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34468082ACDF066005BB462 /* DetailViewController.swift */; };
+		A344680B2ACDF066005BB462 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34468092ACDF066005BB462 /* DetailViewController.xib */; };
 		A3D960E12ACD67D0006341DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D960E02ACD67D0006341DE /* AppDelegate.swift */; };
 		A3D960E32ACD67D0006341DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D960E22ACD67D0006341DE /* SceneDelegate.swift */; };
 		A3D960EA2ACD67D1006341DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D960E92ACD67D1006341DE /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A34468082ACDF066005BB462 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A34468092ACDF066005BB462 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		A3D960DD2ACD67D0006341DE /* MVCPatrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCPatrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D960E02ACD67D0006341DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D960E22ACD67D0006341DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				A3D960FC2ACD8189006341DE /* HomeTableViewCell.swift */,
 				A3D960FD2ACD8189006341DE /* HomeTableViewCell.xib */,
 				A3D961002ACD8D40006341DE /* CharacterModel.swift */,
+				A34468082ACDF066005BB462 /* DetailViewController.swift */,
+				A34468092ACDF066005BB462 /* DetailViewController.xib */,
 			);
 			path = MVCPatrones;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D960FB2ACD7B53006341DE /* HomeTableViewController.xib in Resources */,
+				A344680B2ACDF066005BB462 /* DetailViewController.xib in Resources */,
 				A3D960ED2ACD67D1006341DE /* LaunchScreen.storyboard in Resources */,
 				A3D960F72ACD7008006341DE /* SplashViewController.xib in Resources */,
 				A3D960FF2ACD8189006341DE /* HomeTableViewCell.xib in Resources */,
@@ -161,6 +168,7 @@
 				A3D961012ACD8D40006341DE /* CharacterModel.swift in Sources */,
 				A3D960E12ACD67D0006341DE /* AppDelegate.swift in Sources */,
 				A3D960E32ACD67D0006341DE /* SceneDelegate.swift in Sources */,
+				A344680A2ACDF066005BB462 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
